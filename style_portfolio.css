@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(242, 239, 237);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+
+.logo {
+    text-decoration: none;
+    color: cadetblue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation a {
+    color: cadetblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.navigation a:hover {
+    color: rgb(20, 54, 43);
+}
+
+section {
+    padding: 100px 200px;
+
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/pexels-anunturi-gratuite-14676.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.main h2 {
+    color: aliceblue;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: cadetblue;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.main h3 {
+    color: aliceblue;
+    font-size: 1.7em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.main-btn {
+    color: aliceblue;
+    background-color: cadetblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.937em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: rgb(20, 54, 43);
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color: rgb(255, 255, 255);
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.details {
+    background-color: rgba(224, 221, 221, 0.836);
+    /* width: 100%;
+    min-height: 100vh; */
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+    background: url(images/322581331_852181082539358_7610504052300208707_n.png) center no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    transition:
+        translate 0.25s, box-shadow 0.25s;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.image:hover {
+    translate: 0 -30px;
+    box-shadow:
+        5px 3px rgb(217 220 242 / 75%),
+        10px 6px rgba(38, 118, 136, 0.46),
+        15px 9px rgb(20, 54, 43);
+}
+
+.data p {
+    font-size: 1.4em;
+    font-weight: 500;
+    color: darkslategrey;
+    margin-bottom: 30px;
+}
+
+.data a {
+    color: aliceblue;
+    background-color: cadetblue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.937em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    transition: 0.7s ease;
+}
+
+.data-btn:hover {
+    background-color: rgb(20, 54, 43);
+    transform: scale(1.1);
+}
+
+.cards {
+    background: url(images/pexels-anunturi-gratuite-14676.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(116, 180, 182);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: rgb(224, 221, 221);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15PX;
+    transition: 0.7s ease;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.icon {
+    color: rgb(47, 79, 79);
+    font-size: 8em;
+    text-align: center;
+}
+
+
+
+.info h3 {
+    color: darkslategrey;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.info p {
+    color: rgb(27, 47, 47);
+    font-size: 1em;
+    text-align: center;
+}
+
+.projects {
+    background: url(images/pexels-anunturi-gratuite-14676.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.project-card {
+    background-color: rgb(224, 221, 221);
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15PX;
+}
+
+.project-card h3 {
+    color: darkslategrey;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 5px;
+
+}
+
+.lang {
+    color: darkslategrey;
+    font-size: 1.3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.see-code {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: darkslategray;
+    text-align: center;
+    text-transform: uppercase;
+    outline: 2px solid darkslategray;
+    padding: 10px;
+    overflow: hidden;
+    transition: color 1s;
+    border-radius: 10px;
+}
+
+.see-code:hover {
+    color: rgb(224, 221, 221);
+    background-color: darkslategrey;
+}
+
+.details-s {
+    background-color: rgb(224, 221, 221);
+}
+
+.content-a ul {
+    color: darkslategrey;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    font-size: 1.2em;
+}
+
+.content-a span {
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.contact {
+    background-color: rgb(224, 221, 221);
+}
+
+.contact .icon {
+    font-size: 4.5em;
+}
+
+.contact .card {
+    background-color: rgb(180, 176, 176);
+}
+
+.footer {
+    background-color: rgb(151, 147, 147);
+    color: rgb(0, 0, 0);
+    padding-left: 1.3em;
+    padding-right: 1.3em;
+    padding-top: 1.1em;
+    padding-bottom: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer p {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.footer span {
+    color: darkslategrey;
+}
+
+.footer a {
+    color: black;
+    font-size: 1.3em;
+}
+
+@media (max-width:1023px) {
+    header {
+        padding: 12px 20px;
+    }
+
+    .navigation a {
+        padding-left: 10px;
+    }
+
+    .title {
+        font-size: 1.8em;
+    }
+
+    section {
+        padding: 80px 20px;
+    }
+
+    .main h2 {
+        font-size: 1em;
+    }
+
+    .main h3 {
+        font-size: 1.6em;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width:641px) {
+    body {
+        font-size: 12px;
+    }
+
+    .main h2 {
+        font-size: 0.8em;
+    }
+
+    .main h3 {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        font-size: 10px;
+    }
+}
